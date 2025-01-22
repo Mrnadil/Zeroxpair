@@ -1,16 +1,16 @@
 {
-  "description": "gifted-pair-code",
-  "main": "./gifted.js",
+  "description": "bitx-pair-code",
+  "main": "./bitx.js",
   "type": "commonjs",
   "engines" : { 
     "node" : ">=20.0.0"
     },
     "scripts": {
-      "start": "pm2 start gifted.js --deep-monitoring --attach --name gifted",
-      "stop": "pm2 stop gifted",
-     "restart": "pm2 restart gifted"
+      "start": "pm2 start bitx.js --deep-monitoring --attach --name bitx",
+      "stop": "pm2 stop bitx",
+     "restart": "pm2 restart bitx"
     },
-  "author": "Gifted Tech",
+  "author": "Jithula Bhasitha",
   "license": "GPL-3.0 license",
   "dependencies": {
     "gifted-baileys": "^1.5.1",
