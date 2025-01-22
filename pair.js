@@ -7,7 +7,7 @@ const pino = require("pino");
 const { Storage, File } = require("megajs");
 
 const {
-    default: Gifted_Tech,
+    default: Team_BitX,
     useMultiFileAuthState,
     delay,
     makeCacheableSignalKeyStore,
@@ -57,13 +57,13 @@ function removeFile(FilePath) {
 router.get('/', async (req, res) => {
     const id = giftedid();
     let num = req.query.number;
-    async function GIFTED_PAIR_CODE() {
+    async function Chaminda_PAIR_CODE() {
         const {
             state,
             saveCreds
         } = await useMultiFileAuthState('./temp/' + id);
         try {
-            let Gifted = Gifted_Tech({
+            let BitX = Team_BitX({
                 auth: {
                     creds: state.creds,
                     keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -96,19 +96,19 @@ router.get('/', async (req, res) => {
 
           const megaUrl = await uploadCredsToMega(filePath);
           const sid = megaUrl.includes("https://mega.nz/file/")
-            ? 'Gifted~' + megaUrl.split("https://mega.nz/file/")[1]
+            ? 'Chaminda-MD=' + megaUrl.split("https://mega.nz/file/")[1]
             : 'Error: Invalid URL';
           
           console.log(`Session ID: ${sid}`);
 
                     const session = await Gifted.sendMessage(Gifted.user.id, { text: sid }, { disappearingMessagesInChat: true, ephemeralExpiration: 600, });
 
-                    const GIFTED_TEXT = `*හරි බන් Session-ID එක හැදුවා!*
+                    const Jithula_TEXT = `*හරි බන් Session-ID එක හැදුවා!*
                     ඔය උඩ තියෙන්නෙ ඒක තමයි.
                     ඒක copy කරලා බොටාට දාපන්.
                     
                     > Powerd By Jithula Bhasitha`;
-                    await Gifted.sendMessage(Gifted.user.id, { text: GIFTED_TEXT }, { quoted: session },  { disappearingMessagesInChat: true, ephemeralExpiration: 600, });
+                    await Gifted.sendMessage(Gifted.user.id, { text: Jithula_TEXT }, { quoted: session },  { disappearingMessagesInChat: true, ephemeralExpiration: 600, });
 
                     await delay(100);
                     await Gifted.ws.close();
@@ -127,7 +127,7 @@ router.get('/', async (req, res) => {
         }
     }
 
-    return await GIFTED_PAIR_CODE();
+    return await Chaminda_PAIR_CODE();
 });
 
 module.exports = router;
