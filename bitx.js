@@ -13,9 +13,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.listen(PORT, () => {
     console.log(`
-Deployment Successful!
+වැඩ ටික ඔක්කොම ඉවරයි!!!
 
- Chamida-MD -Session-Server Running on http://localhost:` + PORT)
+ මෙන්න ලින්ක් එක http://localhost:` + PORT)
 })
 
 module.exports = app
