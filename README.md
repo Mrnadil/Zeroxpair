@@ -1,46 +1,37 @@
+<div align='center'>
 
-# Gifted-Session-Generator
-- Fork, Star and Edit as you wish
-- Deploy to your favourite hosting server eg Heroku or Render or self hosting
-- This is what I use in my **[Session Site](https://pair1.giftedtech.my.id)** so don't ask for more...
+<h1>Chaminda-MD Session Generator</h1>
+<p>Open-Source Session Generator for Chaminda-MD and Other WhatsApp bots By Using Pair Code Method.</p>
 
-<strong>NB:<strong/> This repo also generates session ID for all bots using gifted-baileys/whiskeysockets/baileys but with ***megajs***
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-<br/>WEB - PAIR CODE FOR BOTS WITH GIFTED-BAILEYS
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-<p align="center">
-   <a href="https://github.com/mouricedevs">
-    <img src="https://files.giftedtech.my.id/file/gifted-md.jpg" width="500">
-     
-</a>
- <p align="center"><img src="https://profile-counter.glitch.me/{mouricedevs}/count.svg" alt="Gifted:: Visitor's Count" /></p>
+<h4> <span> · </span> <a href="https://github.com/ItzJithula/Chaminda-Pair/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/ItzJithula/Chaminda-Pair/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/ItzJithula/Chaminda-Pair/issues"> Request Feature </a> </h4>
 
 
+</div>
 
-[`ℹ️Contact Owner`](https://api.giftedtech.my.id/contact)
+# :notebook_with_decorative_cover: Table of Contents
 
-### FORK THIS REPOSITORY 
- <br>
-<a href='https://github.com/mouricedevs/gifted-pair-code/fork' target="_blank">
-    <img alt='FORK REPO' src='https://img.shields.io/badge/-FORK REPO-black?style=for-the-badge&logo=github&logoColor=white'/>
-</a>
+- [About the Project](#star2-about-the-project)
+- [License](#warning-license)
+- [Contact](#handshake-contact)
 
 
-### DEPLOYMENT
- 
-<a href='https://dashboard.heroku.com/new?template=https://github.com/mouricedevs/gifted-pair-code' target="_blank"><img alt='HEROKU DEPLOY' src='https://img.shields.io/badge/-HEROKU DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/>
- <br>
-<a href='https://dashboard.render.com' target="_blank">
-    <img alt='DEPLOY TO RENDER' src='https://img.shields.io/badge/-DEPLOY TO RENDER-black?style=for-the-badge&logo=render&logoColor=white'/>
-</a>
- <br>
-<a href='https://app.koyeb.com' target="_blank">
-    <img alt='DEPLOY TO KOYEB' src='https://img.shields.io/badge/-DEPLOY TO KOYEB-black?style=for-the-badge&logo=koyeb&logoColor=white'/>
-</a>
+## :star2: About the Project
 
-[`HERE'S AN EXAMPLE OUTPUT`](https://pair1.giftedtech.my.id)
-# `Owner`
+### :dart: Features
+- 24/7 Working
+- Open-Source
 
- <a href="https://github.com/mouricedevs"><img src="https://github.com/mouricedevs.png" width="250" height="250" alt="Gifted Tech"/></a>
 
-   
+### :scroll: Code of Conduct
+
+Please read the [Code of Conduct](https://github.com/ItzJithula/Chaminda-Pair//blob/master/CODE_OF_CONDUCT.md)
+
+## :warning: License
+
+Distributed under the no License. See LICENSE.txt for more information.
+
+## :handshake: Contact
+
+Jithula Bhasitha -  JithulaBhasitha@proton.me
+
+Special Thanks [mouricedevs](https://github.com/mouricedevs/) For [Gifted Pair Code](https://github.com/mouricedevs/gifted-pair-code/)
