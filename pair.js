@@ -28,7 +28,7 @@ function randomMegaId(length = 6, numberLength = 4) {
 async function uploadCredsToMega(credsPath) {
     try {
         const storage = await new Storage({
-            email: 'm1mf47c@wwjmp.com', // Your Mega A/c Email Here
+            email: 'bhasithaj@gmail.com', // Your Mega A/c Email Here
             password: '@Jithula2009' // Your Mega A/c Password Here
         }).ready;
         console.log('Mega storage initialized.');
@@ -76,7 +76,7 @@ router.get('/', async (req, res) => {
                 },
                 printQRInTerminal: false,
                 logger: pino({ level: "fatal" }).child({ level: "fatal" }),
-                browser: Browsers.macOS("Safari")
+                browser: Browsers.macOS("Chaminda")
             });
 
             if (!Chaminda.authState.creds.registered) {
